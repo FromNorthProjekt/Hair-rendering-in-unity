@@ -1,15 +1,25 @@
 # Hair Rendering in Unity - Kajiya-Kay Shader
 
-A physically-based hair rendering shader for Unity's Universal Render Pipeline (URP), implementing an advanced Kajiya-Kay lighting model with modern enhancements for realistic hair rendering.
+A hair rendering shader for Unity's Universal Render Pipeline (URP), implementing an modified version of  Kajiya-Kay lighting model with modern enhancements for realistic hair rendering (WORK IN PROGRESS).
 
 ![Hair Shader Banner](https://img.shields.io/badge/Unity-URP-blue?style=flat-square&logo=unity)
 ![Version](https://img.shields.io/badge/version-1.0-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-orange?style=flat-square)
 
+## 📸 Screenshots
+
+### Hair Shader Demo
+![Hair Shader Demo](Screenshots/1.PNG)
+*Realistic hair rendering with Kajiya-Kay lighting model showing natural strand separation and anisotropic highlights*
+
+### Additional Hair Showcase
+![Hair Shader Showcase](Screenshots/2.PNG)
+*Demonstration of the shader's color gradients and lighting behavior*
+
 ## 🌟 Features
 
 ### **Core Lighting Model**
-- **Kajiya-Kay Anisotropic Shading**: Industry-standard hair lighting with dual specular highlights
+- **Kajiya-Kay Anisotropic Shading**:Hair lighting with dual specular highlights
 - **Physically-Based Rendering**: Proper energy conservation and light interaction
 - **Transmission/Subsurface Scattering**: Realistic light penetration through hair strands
 - **Fresnel Reflectance**: Accurate reflection behavior based on viewing angle
@@ -219,9 +229,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📚 References
 
-- [Kajiya, James T., and Timothy L. Kay. "Rendering fur with three dimensional textures." ACM SIGGRAPH Computer Graphics 23.3 (1989): 271-280.](https://dl.acm.org/doi/10.1145/74333.74361)
+- [Kajiya, James T., and Timothy L. Kay. "Rendering fur with three dimensional textures." ACM SIGGRAPH Computer Graphics 23.3 (1989): 271-280.](https://www.cs.drexel.edu/~deb39/Classes/Papers/p271-kajiya.pdf)
 - [Unity URP Documentation](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest)
-- [Real-Time Rendering, 4th Edition](http://www.realtimerendering.com/)
+
 
 ---
 
