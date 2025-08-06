@@ -11,11 +11,11 @@ A hair rendering shader for Unity's Universal Render Pipeline (URP), implementin
 > **Important Notice:** This shader is currently in active development and is **not ready for production use**. While the core Kajiya-Kay implementation is functional, significant work is still required to achieve high-quality rendering results suitable for commercial projects.
 
 ### Current Limitations:
-- 🔧 **Requires Fine-tuning**: Parameter ranges and default values need optimization
-- 🎨 **Visual Polish Needed**: Some rendering artifacts may be present under certain lighting conditions
-- 📚 **Documentation Incomplete**: Best practices and usage guidelines are still being developed
-- 🧪 **Testing Required**: Limited testing across different hair types and scenarios
-- ⚡ **Performance Optimization**: Further optimization needed for mobile and lower-end platforms
+-  **Requires Fine-tuning**: Parameter ranges and default values need optimization
+-  **Visual Polish Needed**: Some rendering artifacts may be present under certain lighting conditions
+-  **Documentation Incomplete**: Best practices and usage guidelines are still being developed
+-  **Testing Required**: Limited testing across different hair types and scenarios
+-  **Performance Optimization**: Further optimization needed for mobile and lower-end platforms
 
 ### What's Working:
 - ✅ Basic Kajiya-Kay anisotropic shading
