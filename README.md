@@ -1,10 +1,30 @@
 # Hair Rendering in Unity - Kajiya-Kay Shader
 
-A hair rendering shader for Unity's Universal Render Pipeline (URP), implementing an modified version of  Kajiya-Kay lighting model with modern enhancements for realistic hair rendering (WORK IN PROGRESS).
+A hair rendering shader for Unity's Universal Render Pipeline (URP), implementing an modified version of  Kajiya-Kay lighting model with modern enhancements for realistic hair rendering.
 
 ![Hair Shader Banner](https://img.shields.io/badge/Unity-URP-blue?style=flat-square&logo=unity)
 ![Version](https://img.shields.io/badge/version-1.0-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-orange?style=flat-square)
+
+## ⚠️ **WORK IN PROGRESS - NOT PRODUCTION READY**
+
+> **Important Notice:** This shader is currently in active development and is **not ready for production use**. While the core Kajiya-Kay implementation is functional, significant work is still required to achieve high-quality rendering results suitable for commercial projects.
+
+### Current Limitations:
+- 🔧 **Requires Fine-tuning**: Parameter ranges and default values need optimization
+- 🎨 **Visual Polish Needed**: Some rendering artifacts may be present under certain lighting conditions
+- 📚 **Documentation Incomplete**: Best practices and usage guidelines are still being developed
+- 🧪 **Testing Required**: Limited testing across different hair types and scenarios
+- ⚡ **Performance Optimization**: Further optimization needed for mobile and lower-end platforms
+
+### What's Working:
+- ✅ Basic Kajiya-Kay anisotropic shading
+- ✅ Dual specular highlights (primary and secondary)
+- ✅ Root-to-tip color gradients
+- ✅ Multiple alpha modes and transparency handling
+- ✅ Shader variants and compilation
+
+**Use this shader for experimentation, learning, and development purposes. Contributions and feedback are welcome to help improve the shader towards production quality!**
 
 ## 📸 Screenshots
 
@@ -40,13 +60,13 @@ A hair rendering shader for Unity's Universal Render Pipeline (URP), implementin
 - **Shader Variants**: Compile-time optimization with no runtime branching
 - **SRP Batcher Compatible**: Optimized for Unity's Scriptable Render Pipeline batching
 - **DOTS Instancing Support**: Full support for Unity's Data-Oriented Technology Stack
-- **Multi-Light Support**: Works with main directional light and additional lights
+- **Directional Lights-Only**: The shader only supports Directional lights for now
 
 ## 🚀 Quick Start
 
 ### Requirements
-- **Unity 2022.3 LTS** or newer
-- **Universal Render Pipeline (URP)** 12.0.0 or newer
+- **Unity 6.1** or newer
+- **Universal Render Pipeline (URP)** 17.1.0 or newer
 - **Shader Model 3.5** support
 
 ### Installation
@@ -118,16 +138,11 @@ The shader automatically generates optimized variants based on enabled features:
 ### **Best Practices**
 
 #### **Hair Card Setup**
-1. **UV Layout**: Ensure hair flows from root (V=0) to tip (V=1)
+1. **UV Layout**: Ensure hair flows from root (V=1) to tip (V=0) (we use 1 - v to invert)
 2. **Tangent Space**: Hair cards should have consistent tangent directions
 3. **Alpha Channel**: Use gradual alpha falloff for natural strand edges
 4. **Texture Resolution**: 512x512 to 1024x2048 depending on hair density
 
-#### **Performance Optimization**
-1. **LOD Levels**: Use simpler shaders for distant hair
-2. **Texture Streaming**: Enable texture streaming for large hair atlases
-3. **Variant Stripping**: Remove unused shader variants in build settings
-4. **Batching**: Group similar hair materials to leverage SRP batching
 
 #### **Visual Quality**
 1. **Dual Highlights**: Set primary highlight sharper than secondary
@@ -173,29 +188,6 @@ Hair/
 ```
 
 ## 🎨 Examples & Tips
-
-### **Realistic Hair Types**
-
-#### **Blonde Hair**
-- Root: `#8B6914` (Dark blonde)
-- Length: `#DAA520` (Golden)  
-- Tip: `#F5DEB3` (Wheat)
-- Primary Shift: `-0.1`
-- Secondary Shift: `0.3`
-
-#### **Brown Hair**
-- Root: `#2F1B14` (Dark brown)
-- Length: `#8B4513` (Saddle brown)
-- Tip: `#CD853F` (Peru)
-- Primary Shift: `0.0`
-- Secondary Shift: `0.4`
-
-#### **Black Hair**
-- Root: `#1C1C1C` (Almost black)
-- Length: `#2F2F2F` (Dark gray)
-- Tip: `#4F4F4F` (Gray)
-- Primary Shift: `0.1`
-- Secondary Shift: `0.5`
 
 ### **Stylized Effects**
 - **Fantasy Colors**: Increase hue variation for magical/anime styles

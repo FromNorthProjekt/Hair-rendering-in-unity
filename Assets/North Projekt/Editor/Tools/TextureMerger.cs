@@ -34,7 +34,7 @@ public class TextureMerger : EditorWindow
         public BlendMode blendMode = BlendMode.Normal_Overwrite;
     }
 
-    [MenuItem("North Project/Texture Merger")]
+    [MenuItem("North Projekt/Texture Merger")]
     public static void ShowWindow()
     {
         GetWindow<TextureMerger>("Texture Merger");
