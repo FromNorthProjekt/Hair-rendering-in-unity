@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PonyTail
+  m_Shader: {fileID: 4800000, guid: 976ad82f662558f4d9b4394507e9a86a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALPHAMODE_CLIPWITHALPHA
+  - _NORMALMAP
+  - _OCCLUSIONMAP
+  m_InvalidKeywords:
+  - _ALPHATEST_ON
+  - _RECALCULATE_CARD_NORMALS
+  - _SURFACE_TYPE_TRANSPARENT
+  - _USECARDNORMALS_ON
+  - _USESEPARATEDEPTHCUTOFF_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 9a4c7133467423a44865edbaa36ce807, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 64b119c2db79b9349a8e455b94a7b3c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MasksMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: e66916bd12fca264e8030d9242c3c172, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StrandMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 1
+    - _AlphaCutoff: 0.596
+    - _AlphaMode: 1
+    - _AlphaToMask: 0
+    - _Ambient_Occlusion: 1
+    - _AnisotropicPower: 177
+    - _AnisotropicShift: -0.175
+    - _AnisotropicStrength: 0.02
+    - _BackscatteringStrength: 0
+    - _Baked_Ambient_Occlusion: 1
+    - _BendStiffness: 0.5
+    - _Blend: 0
+    - _BumpScale: 3
+    - _ChaosFactor: 0.2
+    - _ColorBlendPower: 2.12
+    - _ColorVariation: 0.664
+    - _Cull: 0
+    - _CuticleAngle: 2
+    - _Cuticle_Angle: 2.89
+    - _Cutoff: 0.51
+    - _DepthCutoff: 0.75
+    - _Depth_Offset: 0
+    - _DetailNoiseScale: 1.69
+    - _DetailNoiseStrength: 0
+    - _DitherStrength: 0.3
+    - _DstBlend: 10
+    - _FresnelStrength: 1
+    - _Going_Grey: 1
+    - _GreyingAmount: 0.301
+    - _HairStiffness: 0.3
+    - _Max_Opacity: 1
+    - _Max_Smoothness: 0.9
+    - _Metallic: 0
+    - _Min_Smoothness: 0.4
+    - _OcclusionStrength: 0.52
+    - _Opacity_Fading: 0.1
+    - _Opacity_Threshold: 0.1
+    - _Parallax: 0
+    - _PerStrandHueVariation: 0.05
+    - _PerStrandHueVariationClean: 0.01
+    - _PerStrandNoiseSmoothing: 0.155
+    - _Per_Strand_Hue_Variation: 1
+    - _Per_Strand_Smoothness_Variation: 0.3
+    - _PrimaryRoughness: 0.485
+    - _PrimaryShift: 0.04
+    - _PrimarySpecularPower: 64
+    - _PrimarySpecularShift: 0
+    - _PrimarySpecularStrength: 1
+    - _PrimaryStrength: 0
+    - _PrimaryWaveIntensity: 0.6
+    - _PrimaryWaveSpeed: 1
+    - _PrimaryWindSpeed: 0.2
+    - _PrimaryWindStrength: 0.4
+    - _QueueOffset: 0
+    - _RECALCULATE_CARD_NORMALS: 1
+    - _Radial_Smoothness: 8
+    - _ReceiveShadows: 1
+    - _RimIntensity: 0
+    - _RimLightStrength: 0.434
+    - _RimPower: 0.5
+    - _Root_Distance: 0.336
+    - _Root_Fade: 0.177
+    - _Roughness: 0.506
+    - _ScatteringStrength: 0
+    - _SecondaryRoughness: 0.349
+    - _SecondaryShift: -0.58
+    - _SecondarySpecularPower: 88
+    - _SecondarySpecularShift: 0.408
+    - _SecondarySpecularStrength: 0.073
+    - _SecondaryStrength: 0
+    - _SecondaryWaveIntensity: 0.3
+    - _SecondaryWaveSpeed: 2
+    - _SecondaryWindSpeed: 3
+    - _SecondaryWindStrength: 0.1
+    - _ShadowContrast: 1
+    - _SmoothDither: 0
+    - _Smoothness: 1
+    - _SpecularFocus: 0.1
+    - _SpecularStrength: 0
+    - _SrcBlend: 5
+    - _StrandFrequency: 32.7
+    - _StrandSeparation: 0.073
+    - _StrandThreshold: 0.877
+    - _StrandVisibility: 0
+    - _Surface: 1
+    - _TAA_Note: 0
+    - _TertiaryWaveIntensity: 0.15
+    - _TertiaryWaveSpeed: 4
+    - _Tip: 0
+    - _Tip_Distance: 0.344
+    - _Tip_Fade: 0.2
+    - _Tip_Fadeout: 0.1
+    - _TransmissionStrength: 0.19
+    - _UseCardNormals: 1
+    - _UseGlobalWind: 0
+    - _UseNoiseTexture: 0
+    - _UsePhysicalSpecularColors: 0
+    - _UseSeparateDepthCutoff: 1
+    - _WindBendStrength: 1
+    - _WindDrag: 0.8
+    - _WindGustiness: 0.8
+    - _WindMomentum: 0.4
+    - _WindSpeed: 1
+    - _WindStrength: 0
+    - _WindTurbulence: 0.3
+    - _WorkflowMode: 1
+    - _ZWrite: 0
+    m_Colors:
+    - _AnisotropicColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HairStrandDirection: {r: 0, g: -1, b: 0, a: 0}
+    - _Hair_Strand_Direction: {r: 0, g: -1, b: 0, a: 0}
+    - _Length_Color: {r: 0.8018868, g: 0.49047002, b: 0, a: 1}
+    - _MidColor: {r: 0.29999998, g: 0.19999996, b: 0.09999997, a: 1}
+    - _PrimaryColor: {r: 1, g: 0.5444444, b: 0.21226418, a: 1}
+    - _PrimarySpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RootColor: {r: 0.09999997, g: 0.09999997, b: 0.09999997, a: 1}
+    - _Root_Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
+    - _SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondarySpecularColor: {r: 0.8, g: 0.6, b: 0.39999998, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TipColor: {r: 0.6, g: 0.39999998, b: 0.19999996, a: 1}
+    - _Tip_Color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+    - _TransmissionColor: {r: 1, g: 0.8, b: 0.6, a: 1}
+    - _WindDirection: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
