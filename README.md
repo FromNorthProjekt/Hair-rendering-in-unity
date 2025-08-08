@@ -217,7 +217,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Kajiya and Kay (1989)**: Original hair lighting model research
 - **Unity Technologies**: Universal Render Pipeline framework
-- **Real-Time Rendering Community**: Continued advancement in hair rendering techniques
 
 ## 📚 References
 
